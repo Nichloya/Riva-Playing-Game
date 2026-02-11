@@ -14,7 +14,10 @@ elements:
 start_y: 6
 airship: !ruby/object:RPG::System::Vehicle
   start_y: 0
-  bgm: !ruby/object:RPG::BGM {name: Airship, volume: 100, pitch: 100}
+  bgm: !ruby/object:RPG::BGM
+    name: Airship
+    volume: 100
+    pitch: 100
   start_x: 0
   character_index: 3
   character_name: Vehicle
@@ -40,39 +43,114 @@ party_members:
 start_x: 8
 ship: !ruby/object:RPG::System::Vehicle
   start_y: 0
-  bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}
+  bgm: !ruby/object:RPG::BGM
+    name: Ship
+    volume: 100
+    pitch: 100
   start_x: 0
   character_index: 1
   character_name: Vehicle
   start_map_id: 0
 battler_hue: 0
 sounds:
-- !ruby/object:RPG::SE {name: Cursor2, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Decision3, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Cancel2, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Buzzer1, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Equip1, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Save, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Load, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Battle1, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Run, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Attack3, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Damage4, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Collapse1, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Collapse3, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Collapse4, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Damage5, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Collapse2, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Recovery, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Miss, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Evasion1, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Evasion2, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Reflection, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Shop, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Item3, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Item3, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE
+  name: Cursor2
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Decision3
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Cancel2
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Buzzer1
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Equip1
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Save
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Load
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Battle1
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Run
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Attack3
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Damage4
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Collapse1
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Collapse3
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Collapse4
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Damage5
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Collapse2
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Recovery
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Miss
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Evasion1
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Evasion2
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Reflection
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Shop
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Item3
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Item3
+  pitch: 100
+  volume: 80
 variables:
-- 
+-
 - ''
 - ''
 - ''
@@ -173,13 +251,16 @@ variables:
 - ''
 - ''
 - ''
-battle_bgm: !ruby/object:RPG::BGM {name: Battle1, volume: 100, pitch: 100}
-version_id: 84191638
+battle_bgm: !ruby/object:RPG::BGM
+  name: Battle1
+  volume: 100
+  pitch: 100
+version_id: 59348329
 start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160
 switches:
-- 
+-
 - ''
 - ''
 - ''
@@ -284,8 +365,11 @@ gameover_me: !ruby/object:RPG::ME
   name: Gameover1
   pitch: 100
   volume: 100
-game_title: RPGSkeleton
-title_bgm: !ruby/object:RPG::BGM {name: Theme1, volume: 100, pitch: 100}
+game_title: vxa-kostur
+title_bgm: !ruby/object:RPG::BGM
+  name: Theme1
+  volume: 100
+  pitch: 100
 terms: !ruby/object:RPG::System::Terms
   params:
   - MaxHP
@@ -339,7 +423,10 @@ terms: !ruby/object:RPG::System::Terms
 test_troop_id: 1
 boat: !ruby/object:RPG::System::Vehicle
   start_y: 0
-  bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}
+  bgm: !ruby/object:RPG::BGM
+    name: Ship
+    volume: 100
+    pitch: 100
   start_x: 0
   character_index: 0
   character_name: Vehicle
@@ -369,7 +456,11 @@ armor_types:
 - Small Shield
 - Large Shield
 currency_unit: G
-window_tone: !ruby/object:Tone {r: -34.0, g: 0.0, b: 68.0, a: 0.0}
+window_tone: !ruby/object:Tone
+  r: -34.0
+  g: 0.0
+  b: 68.0
+  a: 0.0
 japanese: false
 opt_draw_title: true
 opt_use_midi: false

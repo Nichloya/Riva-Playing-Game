@@ -1,5 +1,5 @@
 ---
-- 
+-
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member

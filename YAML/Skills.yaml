@@ -1,12 +1,12 @@
 ---
-- 
+-
 - !ruby/object:RPG::Skill
   message2: ''
   description: Damages the enemy.
   name: Attack
   occasion: 1
   icon_index: 116
-  message1: ' attacks!'
+  message1: " attacks!"
   scope: 1
   animation_id: -1
   note: "Skill #1 will be used when you select\r\nthe Attack command."
@@ -40,7 +40,7 @@
   name: Guard
   occasion: 1
   icon_index: 116
-  message1: ' guards.'
+  message1: " guards."
   scope: 11
   animation_id: 0
   note: "Skill #2 will be used when you select\r\nthe Guard command."
@@ -74,7 +74,7 @@
   name: Dual Attack
   occasion: 1
   icon_index: 116
-  message1: ' attacks!'
+  message1: " attacks!"
   scope: 1
   animation_id: -1
   note: ''
@@ -108,7 +108,7 @@
   name: Double Attack
   occasion: 1
   icon_index: 116
-  message1: ' attacks!'
+  message1: " attacks!"
   scope: 4
   animation_id: -1
   note: ''
@@ -142,7 +142,7 @@
   name: Triple Attack
   occasion: 1
   icon_index: 116
-  message1: ' attacks!'
+  message1: " attacks!"
   scope: 5
   animation_id: -1
   note: ''
@@ -176,7 +176,7 @@
   name: Escape
   occasion: 1
   icon_index: 116
-  message1: ' flees.'
+  message1: " flees."
   scope: 11
   animation_id: 0
   note: ''
@@ -210,7 +210,7 @@
   name: Wait
   occasion: 1
   icon_index: 116
-  message1: ' waits.'
+  message1: " waits."
   scope: 0
   animation_id: 0
   note: ''
@@ -239,7 +239,7 @@
   name: Fire Breath
   occasion: 1
   icon_index: 96
-  message1: ' uses Fire Breath!'
+  message1: " uses Fire Breath!"
   scope: 2
   animation_id: 25
   note: ''
@@ -268,7 +268,7 @@
   name: Ice Breath
   occasion: 1
   icon_index: 97
-  message1: ' uses Ice Breath!'
+  message1: " uses Ice Breath!"
   scope: 2
   animation_id: 26
   note: ''
@@ -297,7 +297,7 @@
   name: Shock
   occasion: 1
   icon_index: 98
-  message1: ' uses Shock!'
+  message1: " uses Shock!"
   scope: 2
   animation_id: 27
   note: ''
@@ -326,7 +326,7 @@
   name: Poison Cloud
   occasion: 1
   icon_index: 2
-  message1: ' uses Poison Cloud!'
+  message1: " uses Poison Cloud!"
   scope: 2
   animation_id: 31
   note: ''
@@ -360,7 +360,7 @@
   name: Dark Cloud
   occasion: 1
   icon_index: 3
-  message1: ' uses Dark Cloud!'
+  message1: " uses Dark Cloud!"
   scope: 2
   animation_id: 51
   note: ''
@@ -394,7 +394,7 @@
   name: Forget Cloud
   occasion: 1
   icon_index: 4
-  message1: ' uses Forget Cloud!'
+  message1: " uses Forget Cloud!"
   scope: 2
   animation_id: 31
   note: ''
@@ -428,7 +428,7 @@
   name: Sonic Wave
   occasion: 1
   icon_index: 5
-  message1: ' uses Sonic Wave'
+  message1: " uses Sonic Wave"
   scope: 2
   animation_id: 30
   note: ''
@@ -462,7 +462,7 @@
   name: Confusion Song
   occasion: 1
   icon_index: 5
-  message1: ' sings Confusion Song!'
+  message1: " sings Confusion Song!"
   scope: 2
   animation_id: 32
   note: ''
@@ -496,7 +496,7 @@
   name: Sleep Breath
   occasion: 1
   icon_index: 6
-  message1: ' uses Sleep Breath!'
+  message1: " uses Sleep Breath!"
   scope: 2
   animation_id: 54
   note: ''
@@ -530,7 +530,7 @@
   name: Sleep Pollen
   occasion: 1
   icon_index: 6
-  message1: ' uses Sleep Pollen.'
+  message1: " uses Sleep Pollen."
   scope: 2
   animation_id: 29
   note: ''
@@ -564,7 +564,7 @@
   name: Paralyze Breath
   occasion: 1
   icon_index: 7
-  message1: ' uses Paralyze Breath!'
+  message1: " uses Paralyze Breath!"
   scope: 2
   animation_id: 28
   note: ''
@@ -598,7 +598,7 @@
   name: Paralyze Stare
   occasion: 1
   icon_index: 7
-  message1: ' uses Paralyze Stare!'
+  message1: " uses Paralyze Stare!"
   scope: 1
   animation_id: 55
   note: ''
@@ -632,7 +632,7 @@
   name: Sweep Kick
   occasion: 1
   icon_index: 8
-  message1: ' uses Sweep Kick!'
+  message1: " uses Sweep Kick!"
   scope: 1
   animation_id: 35
   note: ''
@@ -666,7 +666,7 @@
   name: Bodyslam
   occasion: 1
   icon_index: 8
-  message1: ' uses Bodyslam!'
+  message1: " uses Bodyslam!"
   scope: 1
   animation_id: 36
   note: ''
@@ -700,7 +700,7 @@
   name: Shout
   occasion: 1
   icon_index: 8
-  message1: ' uses Shout!'
+  message1: " uses Shout!"
   scope: 2
   animation_id: 34
   note: ''
@@ -734,7 +734,7 @@
   name: Vampire
   occasion: 1
   icon_index: 120
-  message1: ' uses Vampire!'
+  message1: " uses Vampire!"
   scope: 1
   animation_id: 49
   note: ''
@@ -763,7 +763,7 @@
   name: Meditate
   occasion: 1
   icon_index: 112
-  message1: ' uses Meditate!'
+  message1: " uses Meditate!"
   scope: 11
   animation_id: 39
   note: ''
@@ -789,7 +789,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: '--------------------'
+  name: "--------------------"
   occasion: 0
   icon_index: 0
   message1: ''
@@ -821,7 +821,7 @@
   name: Heal
   occasion: 0
   icon_index: 112
-  message1: ' casts Heal!'
+  message1: " casts Heal!"
   scope: 7
   animation_id: 37
   note: ''
@@ -850,7 +850,7 @@
   name: Heal II
   occasion: 0
   icon_index: 112
-  message1: ' casts Heal II!'
+  message1: " casts Heal II!"
   scope: 7
   animation_id: 37
   note: ''
@@ -879,7 +879,7 @@
   name: Heal III
   occasion: 0
   icon_index: 112
-  message1: ' casts Heal III!'
+  message1: " casts Heal III!"
   scope: 7
   animation_id: 37
   note: ''
@@ -908,7 +908,7 @@
   name: Recovery
   occasion: 0
   icon_index: 112
-  message1: ' casts Recovery!'
+  message1: " casts Recovery!"
   scope: 8
   animation_id: 37
   note: ''
@@ -937,7 +937,7 @@
   name: Recovery II
   occasion: 0
   icon_index: 112
-  message1: ' casts Recovery II!'
+  message1: " casts Recovery II!"
   scope: 8
   animation_id: 37
   note: ''
@@ -966,7 +966,7 @@
   name: Cure
   occasion: 0
   icon_index: 112
-  message1: ' casts Cure!'
+  message1: " casts Cure!"
   scope: 7
   animation_id: 40
   note: ''
@@ -1005,7 +1005,7 @@
   name: Cure II
   occasion: 0
   icon_index: 112
-  message1: ' casts Cure II!'
+  message1: " casts Cure II!"
   scope: 7
   animation_id: 41
   note: ''
@@ -1064,7 +1064,7 @@
   name: Raise
   occasion: 0
   icon_index: 112
-  message1: ' casts Raise!'
+  message1: " casts Raise!"
   scope: 9
   animation_id: 42
   note: ''
@@ -1098,7 +1098,7 @@
   name: Raise II
   occasion: 0
   icon_index: 112
-  message1: ' casts Raise II!'
+  message1: " casts Raise II!"
   scope: 9
   animation_id: 42
   note: ''
@@ -1132,7 +1132,7 @@
   name: Poison
   occasion: 1
   icon_index: 2
-  message1: ' casts Poison!'
+  message1: " casts Poison!"
   scope: 2
   animation_id: 50
   note: ''
@@ -1166,7 +1166,7 @@
   name: Blind
   occasion: 1
   icon_index: 3
-  message1: ' casts Blind!'
+  message1: " casts Blind!"
   scope: 2
   animation_id: 51
   note: ''
@@ -1200,7 +1200,7 @@
   name: Silence
   occasion: 1
   icon_index: 4
-  message1: ' casts Silence!'
+  message1: " casts Silence!"
   scope: 2
   animation_id: 52
   note: ''
@@ -1234,7 +1234,7 @@
   name: Confuse
   occasion: 1
   icon_index: 5
-  message1: ' casts Confuse!'
+  message1: " casts Confuse!"
   scope: 2
   animation_id: 53
   note: ''
@@ -1268,7 +1268,7 @@
   name: Sleep
   occasion: 1
   icon_index: 6
-  message1: ' casts Sleep!'
+  message1: " casts Sleep!"
   scope: 2
   animation_id: 54
   note: ''
@@ -1302,7 +1302,7 @@
   name: Paralyze
   occasion: 1
   icon_index: 7
-  message1: ' casts Paralyze!'
+  message1: " casts Paralyze!"
   scope: 1
   animation_id: 55
   note: ''
@@ -1336,7 +1336,7 @@
   name: Breath Weapon
   occasion: 1
   icon_index: 34
-  message1: ' casts Breath Weapon!'
+  message1: " casts Breath Weapon!"
   scope: 7
   animation_id: 43
   note: ''
@@ -1370,7 +1370,7 @@
   name: Breath Armour
   occasion: 1
   icon_index: 35
-  message1: ' casts Breath Armour!'
+  message1: " casts Breath Armour!"
   scope: 7
   animation_id: 43
   note: ''
@@ -1404,7 +1404,7 @@
   name: Divine Breath
   occasion: 1
   icon_index: 37
-  message1: ' casts Divine Breath!'
+  message1: " casts Divine Breath!"
   scope: 7
   animation_id: 43
   note: ''
@@ -1438,7 +1438,7 @@
   name: Quick Move
   occasion: 1
   icon_index: 38
-  message1: ' casts Quick Move!'
+  message1: " casts Quick Move!"
   scope: 7
   animation_id: 43
   note: ''
@@ -1472,7 +1472,7 @@
   name: Curse Weapon
   occasion: 1
   icon_index: 50
-  message1: ' casts Curse Weapon!'
+  message1: " casts Curse Weapon!"
   scope: 2
   animation_id: 45
   note: ''
@@ -1506,7 +1506,7 @@
   name: Curse Armour
   occasion: 1
   icon_index: 51
-  message1: ' casts Curse Armour'
+  message1: " casts Curse Armour"
   scope: 2
   animation_id: 45
   note: ''
@@ -1540,7 +1540,7 @@
   name: Divine Curse
   occasion: 1
   icon_index: 53
-  message1: ' casts Divine Curse!'
+  message1: " casts Divine Curse!"
   scope: 2
   animation_id: 45
   note: ''
@@ -1574,7 +1574,7 @@
   name: Slow Move
   occasion: 1
   icon_index: 54
-  message1: ' casts Slow Move!'
+  message1: " casts Slow Move!"
   scope: 2
   animation_id: 45
   note: ''
@@ -1608,7 +1608,7 @@
   name: Life Drain
   occasion: 1
   icon_index: 120
-  message1: ' casts Life Drain!'
+  message1: " casts Life Drain!"
   scope: 1
   animation_id: 49
   note: ''
@@ -1637,7 +1637,7 @@
   name: Mana Drain
   occasion: 1
   icon_index: 120
-  message1: ' casts Mana Drain!'
+  message1: " casts Mana Drain!"
   scope: 1
   animation_id: 49
   note: ''
@@ -1666,7 +1666,7 @@
   name: Fire
   occasion: 1
   icon_index: 96
-  message1: ' casts Fire!'
+  message1: " casts Fire!"
   scope: 1
   animation_id: 57
   note: ''
@@ -1695,7 +1695,7 @@
   name: Fire II
   occasion: 1
   icon_index: 96
-  message1: ' casts Fire II!'
+  message1: " casts Fire II!"
   scope: 1
   animation_id: 58
   note: ''
@@ -1724,7 +1724,7 @@
   name: Flame
   occasion: 1
   icon_index: 96
-  message1: ' casts Flame!'
+  message1: " casts Flame!"
   scope: 2
   animation_id: 59
   note: ''
@@ -1753,7 +1753,7 @@
   name: Flame II
   occasion: 1
   icon_index: 96
-  message1: ' casts Flame II!'
+  message1: " casts Flame II!"
   scope: 2
   animation_id: 60
   note: ''
@@ -1782,7 +1782,7 @@
   name: Ice
   occasion: 1
   icon_index: 97
-  message1: ' casts Ice!'
+  message1: " casts Ice!"
   scope: 1
   animation_id: 61
   note: ''
@@ -1811,7 +1811,7 @@
   name: Ice II
   occasion: 1
   icon_index: 97
-  message1: ' casts Ice II!'
+  message1: " casts Ice II!"
   scope: 1
   animation_id: 62
   note: ''
@@ -1840,7 +1840,7 @@
   name: Blizzard
   occasion: 1
   icon_index: 97
-  message1: ' casts Blizzard!'
+  message1: " casts Blizzard!"
   scope: 2
   animation_id: 63
   note: ''
@@ -1869,7 +1869,7 @@
   name: Blizzard II
   occasion: 1
   icon_index: 97
-  message1: ' casts Blizzard II!'
+  message1: " casts Blizzard II!"
   scope: 2
   animation_id: 64
   note: ''
@@ -1898,7 +1898,7 @@
   name: Thunder
   occasion: 1
   icon_index: 98
-  message1: ' casts Thunder!'
+  message1: " casts Thunder!"
   scope: 1
   animation_id: 65
   note: ''
@@ -1927,7 +1927,7 @@
   name: Thunder II
   occasion: 1
   icon_index: 98
-  message1: ' casts Thunder II!'
+  message1: " casts Thunder II!"
   scope: 1
   animation_id: 66
   note: ''
@@ -1956,7 +1956,7 @@
   name: Spark
   occasion: 1
   icon_index: 98
-  message1: ' casts Spark!'
+  message1: " casts Spark!"
   scope: 2
   animation_id: 67
   note: ''
@@ -1985,7 +1985,7 @@
   name: Spark II
   occasion: 1
   icon_index: 98
-  message1: ' casts Spark II!'
+  message1: " casts Spark II!"
   scope: 2
   animation_id: 68
   note: ''
@@ -2014,7 +2014,7 @@
   name: Water
   occasion: 1
   icon_index: 99
-  message1: ' casts Water!'
+  message1: " casts Water!"
   scope: 1
   animation_id: 69
   note: ''
@@ -2043,7 +2043,7 @@
   name: Wave
   occasion: 1
   icon_index: 99
-  message1: ' casts Wave!'
+  message1: " casts Wave!"
   scope: 2
   animation_id: 70
   note: ''
@@ -2072,7 +2072,7 @@
   name: Stone
   occasion: 1
   icon_index: 100
-  message1: ' casts Stone!'
+  message1: " casts Stone!"
   scope: 1
   animation_id: 71
   note: ''
@@ -2101,7 +2101,7 @@
   name: Quake
   occasion: 1
   icon_index: 100
-  message1: ' casts Quake!'
+  message1: " casts Quake!"
   scope: 2
   animation_id: 72
   note: ''
@@ -2130,7 +2130,7 @@
   name: Wind
   occasion: 1
   icon_index: 101
-  message1: ' casts Wind!'
+  message1: " casts Wind!"
   scope: 1
   animation_id: 73
   note: ''
@@ -2159,7 +2159,7 @@
   name: Tornado
   occasion: 1
   icon_index: 101
-  message1: ' casts Tornado!'
+  message1: " casts Tornado!"
   scope: 2
   animation_id: 74
   note: ''
@@ -2188,7 +2188,7 @@
   name: Saint
   occasion: 1
   icon_index: 102
-  message1: ' casts Saint!'
+  message1: " casts Saint!"
   scope: 1
   animation_id: 75
   note: ''
@@ -2246,7 +2246,7 @@
   name: Shade
   occasion: 1
   icon_index: 103
-  message1: ' casts Shade!'
+  message1: " casts Shade!"
   scope: 1
   animation_id: 77
   note: ''
@@ -2275,7 +2275,7 @@
   name: Darkness
   occasion: 1
   icon_index: 103
-  message1: ' casts Darkness!'
+  message1: " casts Darkness!"
   scope: 2
   animation_id: 78
   note: ''
@@ -2304,7 +2304,7 @@
   name: Burst
   occasion: 1
   icon_index: 119
-  message1: ' casts Burst!'
+  message1: " casts Burst!"
   scope: 1
   animation_id: 79
   note: ''
@@ -2333,7 +2333,7 @@
   name: Nuclear
   occasion: 1
   icon_index: 119
-  message1: ' casts Nuclear!'
+  message1: " casts Nuclear!"
   scope: 2
   animation_id: 80
   note: ''
@@ -2359,7 +2359,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: '--------------------'
+  name: "--------------------"
   occasion: 0
   icon_index: 0
   message1: ''
@@ -2391,7 +2391,7 @@
   name: Fire Weapon
   occasion: 1
   icon_index: 96
-  message1: ' uses Fire Weapon!'
+  message1: " uses Fire Weapon!"
   scope: 11
   animation_id: 43
   note: ''
@@ -2425,7 +2425,7 @@
   name: Ice Weapon
   occasion: 1
   icon_index: 97
-  message1: ' uses Ice Weapon!'
+  message1: " uses Ice Weapon!"
   scope: 11
   animation_id: 43
   note: ''
@@ -2459,7 +2459,7 @@
   name: Thunder Weapon
   occasion: 1
   icon_index: 98
-  message1: ' uses Thunder Weapon!'
+  message1: " uses Thunder Weapon!"
   scope: 11
   animation_id: 43
   note: ''
@@ -2490,7 +2490,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: '--------------------'
+  name: "--------------------"
   occasion: 0
   icon_index: 0
   message1: ''
@@ -2522,7 +2522,7 @@
   name: Strong Attack
   occasion: 1
   icon_index: 116
-  message1: ' uses Strong Attack!'
+  message1: " uses Strong Attack!"
   scope: 1
   animation_id: -1
   note: ''
@@ -2556,7 +2556,7 @@
   name: Cleave
   occasion: 1
   icon_index: 116
-  message1: ' uses Cleave!'
+  message1: " uses Cleave!"
   scope: 2
   animation_id: -1
   note: ''
@@ -2590,7 +2590,7 @@
   name: Berserker's Roar
   occasion: 1
   icon_index: 34
-  message1: ' uses Berserker''s Roar!'
+  message1: " uses Berserker's Roar!"
   scope: 8
   animation_id: 34
   note: ''
@@ -2624,7 +2624,7 @@
   name: Berserker's Dance
   occasion: 1
   icon_index: 128
-  message1: ' uses Berserker''s Dance!'
+  message1: " uses Berserker's Dance!"
   scope: 5
   animation_id: -1
   note: ''
@@ -2653,7 +2653,7 @@
   name: Giant's Rampage
   occasion: 1
   icon_index: 128
-  message1: ' uses Giant''s Rampage!'
+  message1: " uses Giant's Rampage!"
   scope: 2
   animation_id: 12
   note: ''
@@ -2682,7 +2682,7 @@
   name: Tackle
   occasion: 1
   icon_index: 116
-  message1: ' uses Tackle!'
+  message1: " uses Tackle!"
   scope: 1
   animation_id: 36
   note: ''
@@ -2716,7 +2716,7 @@
   name: Chakra
   occasion: 1
   icon_index: 112
-  message1: ' uses Chakra!'
+  message1: " uses Chakra!"
   scope: 11
   animation_id: 38
   note: ''
@@ -2775,7 +2775,7 @@
   name: Tiger Stance
   occasion: 1
   icon_index: 11
-  message1: ' uses Tiger Stance!'
+  message1: " uses Tiger Stance!"
   scope: 11
   animation_id: 43
   note: ''
@@ -2809,7 +2809,7 @@
   name: No Shadow Kick
   occasion: 1
   icon_index: 116
-  message1: ' uses No Shadow Kick!'
+  message1: " uses No Shadow Kick!"
   scope: 2
   animation_id: 5
   note: ''
@@ -2838,7 +2838,7 @@
   name: Claw Dance
   occasion: 1
   icon_index: 129
-  message1: ' uses Claw Dance!'
+  message1: " uses Claw Dance!"
   scope: 1
   animation_id: 86
   note: ''
@@ -2867,7 +2867,7 @@
   name: Cover
   occasion: 1
   icon_index: 116
-  message1: ' uses Cover!'
+  message1: " uses Cover!"
   scope: 11
   animation_id: 0
   note: ''
@@ -2901,7 +2901,7 @@
   name: Provoke
   occasion: 1
   icon_index: 9
-  message1: ' uses Provoke!'
+  message1: " uses Provoke!"
   scope: 11
   animation_id: 34
   note: ''
@@ -2935,7 +2935,7 @@
   name: Super Guard
   occasion: 1
   icon_index: 113
-  message1: ' uses Super Guard!'
+  message1: " uses Super Guard!"
   scope: 11
   animation_id: 43
   note: ''
@@ -2969,7 +2969,7 @@
   name: Restrengthen
   occasion: 1
   icon_index: 43
-  message1: ' uses Restrengthen!'
+  message1: " uses Restrengthen!"
   scope: 8
   animation_id: 33
   note: ''
@@ -3008,7 +3008,7 @@
   name: Zero Storm
   occasion: 1
   icon_index: 130
-  message1: ' uses Zero Storm!'
+  message1: " uses Zero Storm!"
   scope: 5
   animation_id: 90
   note: ''
@@ -3037,7 +3037,7 @@
   name: Aura Blade
   occasion: 1
   icon_index: 131
-  message1: ' uses Aura Blade!'
+  message1: " uses Aura Blade!"
   scope: 1
   animation_id: -1
   note: ''
@@ -3071,7 +3071,7 @@
   name: Dispel
   occasion: 1
   icon_index: 114
-  message1: ' uses Dispel!'
+  message1: " uses Dispel!"
   scope: 1
   animation_id: 46
   note: ''
@@ -3130,7 +3130,7 @@
   name: Magic Barrier
   occasion: 1
   icon_index: 45
-  message1: ' casts Magic Barrier!'
+  message1: " casts Magic Barrier!"
   scope: 11
   animation_id: 44
   note: ''
@@ -3169,7 +3169,7 @@
   name: Reinforce
   occasion: 1
   icon_index: 113
-  message1: ' uses Reinforce!'
+  message1: " uses Reinforce!"
   scope: 11
   animation_id: 44
   note: ''
@@ -3213,7 +3213,7 @@
   name: Radiant Blade
   occasion: 1
   icon_index: 131
-  message1: ' uses Radiant Blade!'
+  message1: " uses Radiant Blade!"
   scope: 2
   animation_id: 87
   note: ''
@@ -3242,7 +3242,7 @@
   name: Yoroidoshi
   occasion: 1
   icon_index: 116
-  message1: ' uses Yoroidoshi!'
+  message1: " uses Yoroidoshi!"
   scope: 1
   animation_id: -1
   note: ''
@@ -3271,7 +3271,7 @@
   name: Shintou Mekkyaku
   occasion: 1
   icon_index: 112
-  message1: ' uses Shintou Mekkyaku!'
+  message1: " uses Shintou Mekkyaku!"
   scope: 11
   animation_id: 0
   note: ''
@@ -3305,7 +3305,7 @@
   name: Hassou
   occasion: 1
   icon_index: 113
-  message1: ' uses Hassou!'
+  message1: " uses Hassou!"
   scope: 11
   animation_id: 43
   note: ''
@@ -3344,7 +3344,7 @@
   name: Tsubamekaeshi
   occasion: 1
   icon_index: 132
-  message1: ' uses Tsubamekaeshi!'
+  message1: " uses Tsubamekaeshi!"
   scope: 2
   animation_id: -1
   note: ''
@@ -3373,7 +3373,7 @@
   name: Ouka Mugen jin
   occasion: 1
   icon_index: 132
-  message1: ' uses Ouka Mugen Ha!'
+  message1: " uses Ouka Mugen Ha!"
   scope: 2
   animation_id: 88
   note: ''
@@ -3402,7 +3402,7 @@
   name: Weapon Break
   occasion: 1
   icon_index: 116
-  message1: ' uses Weapon Break!'
+  message1: " uses Weapon Break!"
   scope: 1
   animation_id: -1
   note: ''
@@ -3436,7 +3436,7 @@
   name: Armour Break
   occasion: 1
   icon_index: 116
-  message1: ' uses Armour Break!'
+  message1: " uses Armour Break!"
   scope: 1
   animation_id: -1
   note: ''
@@ -3470,7 +3470,7 @@
   name: Zero Shadow
   occasion: 1
   icon_index: 46
-  message1: ' uses Zero Shadow!'
+  message1: " uses Zero Shadow!"
   scope: 11
   animation_id: 31
   note: ''
@@ -3509,7 +3509,7 @@
   name: Triple Shot
   occasion: 1
   icon_index: 133
-  message1: ' uses Triple Shot!'
+  message1: " uses Triple Shot!"
   scope: 5
   animation_id: -1
   note: ''
@@ -3538,7 +3538,7 @@
   name: Thousand Arrows
   occasion: 1
   icon_index: 133
-  message1: ' uses Thousand Arrows!'
+  message1: " uses Thousand Arrows!"
   scope: 2
   animation_id: -1
   note: ''
@@ -3567,7 +3567,7 @@
   name: Vanish
   occasion: 1
   icon_index: 12
-  message1: ' uses Vanish!'
+  message1: " uses Vanish!"
   scope: 11
   animation_id: 0
   note: ''
@@ -3601,7 +3601,7 @@
   name: Flare
   occasion: 1
   icon_index: 3
-  message1: ' uses Flare!'
+  message1: " uses Flare!"
   scope: 2
   animation_id: 33
   note: ''
@@ -3635,7 +3635,7 @@
   name: Thief's Luck
   occasion: 1
   icon_index: 47
-  message1: ' uses Thief''s Luck!'
+  message1: " uses Thief's Luck!"
   scope: 11
   animation_id: 43
   note: ''
@@ -3674,7 +3674,7 @@
   name: Assassin's Edge
   occasion: 1
   icon_index: 134
-  message1: ' uses Assassin''s Edge'
+  message1: " uses Assassin's Edge"
   scope: 1
   animation_id: -1
   note: ''
@@ -3703,7 +3703,7 @@
   name: Valiant Edge
   occasion: 1
   icon_index: 134
-  message1: ' uses Valiant Edge!'
+  message1: " uses Valiant Edge!"
   scope: 6
   animation_id: 89
   note: ''
@@ -3732,7 +3732,7 @@
   name: Spirit's Blessing
   occasion: 1
   icon_index: 35
-  message1: ' uses Holy Blessing!'
+  message1: " uses Holy Blessing!"
   scope: 8
   animation_id: 44
   note: ''
@@ -3766,7 +3766,7 @@
   name: Fairy's Breath
   occasion: 1
   icon_index: 10
-  message1: ' uses Fairy''s Breath!'
+  message1: " uses Fairy's Breath!"
   scope: 8
   animation_id: 42
   note: ''
@@ -3800,7 +3800,7 @@
   name: God's Will
   occasion: 1
   icon_index: 102
-  message1: ' uses God''s Will!'
+  message1: " uses God's Will!"
   scope: 2
   animation_id: 76
   note: ''
@@ -3829,7 +3829,7 @@
   name: Goddess' Embrace
   occasion: 1
   icon_index: 113
-  message1: ' uses Goddess'' Embrace!'
+  message1: " uses Goddess' Embrace!"
   scope: 8
   animation_id: 44
   note: ''
@@ -3878,7 +3878,7 @@
   name: Magic Reflect
   occasion: 1
   icon_index: 15
-  message1: ' uses Magic Reflect!'
+  message1: " uses Magic Reflect!"
   scope: 11
   animation_id: 0
   note: ''
@@ -3912,7 +3912,7 @@
   name: Enhance Spell
   occasion: 1
   icon_index: 44
-  message1: ' uses Enhance Spell!'
+  message1: " uses Enhance Spell!"
   scope: 11
   animation_id: 43
   note: ''
@@ -3951,7 +3951,7 @@
   name: Nightmare
   occasion: 1
   icon_index: 6
-  message1: ' uses Nightmare!'
+  message1: " uses Nightmare!"
   scope: 2
   animation_id: 56
   note: ''
@@ -3995,7 +3995,7 @@
   name: Magic Torrent
   occasion: 1
   icon_index: 14
-  message1: ' uses Magic Torrent!'
+  message1: " uses Magic Torrent!"
   scope: 11
   animation_id: 38
   note: ''
@@ -4024,7 +4024,7 @@
   name: Magic Pulse
   occasion: 1
   icon_index: 10
-  message1: ' uses Magic Pulse!'
+  message1: " uses Magic Pulse!"
   scope: 11
   animation_id: 38
   note: ''
@@ -4058,7 +4058,7 @@
   name: Spell Resistance
   occasion: 1
   icon_index: 13
-  message1: ' uses Spell Resistance!'
+  message1: " uses Spell Resistance!"
   scope: 11
   animation_id: 43
   note: ''
@@ -4092,7 +4092,7 @@
   name: Mana Barrier
   occasion: 1
   icon_index: 113
-  message1: ' uses Mana Barrier!'
+  message1: " uses Mana Barrier!"
   scope: 8
   animation_id: 44
   note: ''
@@ -4126,7 +4126,7 @@
   name: Mystic Spell
   occasion: 1
   icon_index: 14
-  message1: ' uses Mystic Spell!'
+  message1: " uses Mystic Spell!"
   scope: 11
   animation_id: 43
   note: ''

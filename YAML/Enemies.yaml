@@ -1,5 +1,5 @@
 ---
-- 
+-
 - !ruby/object:RPG::Enemy
   name: Slime
   gold: 5

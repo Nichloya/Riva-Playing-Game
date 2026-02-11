@@ -1,5 +1,5 @@
 ---
-- 
+-
 - !ruby/object:RPG::Item
   description: Recovers 500 HP.
   name: Potion

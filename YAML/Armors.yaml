@@ -1,5 +1,5 @@
 ---
-- 
+-
 - !ruby/object:RPG::Armor
   description: Very lightweight clothes.
   name: Casual Clothes

@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# -*- coding: utf-8 -*-
-
 #==============================================================================
 # ** Game_Troop
 #------------------------------------------------------------------------------
@@ -153,7 +151,7 @@ class Game_Troop < Game_Unit
     end
     if c.actor_valid    # Actor
       actor = $game_actors[c.actor_id]
-      return false if actor == nil
+      return false if actor == nil 
       return false if actor.hp_rate * 100 > c.actor_hp
     end
     if c.switch_valid   # Switch

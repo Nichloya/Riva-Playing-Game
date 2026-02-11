@@ -1,5 +1,5 @@
 ---
-- 
+-
 - !ruby/object:RPG::Tileset
   id: 1
   name: Field

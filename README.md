@@ -1,7 +1,9 @@
-rpgskeleton
+rpgskeleton-ng (rpgskeleton-update)
 ===========
 
-This is a skeleton project for use with RPG Maker VX Ace. It contains everything you need to get started on a collaborative RPG Maker VX Ace project.
+**rpgskeleton-ng** is a recreation of **rpgskeleton** by Andrew Kesterson, with new version of rvpacker-ng and RPGVXAce 1.02.
+
+**rpgskeleton** is skeleton project for use with RPG Maker VX Ace. It contains everything you need to get started on a collaborative RPG Maker VX Ace project.
 
 There is a basic empty skeleton RPG Maker VX Ace project, along with some scripts and makefiles that make it easy to pack/unpack RPG Maker datafiles to/from YAML and script files. This converts them between plaintext formats, which means they're now easy to version control/merge/share. (And it means that programmers can work on scripts without ever opening the editor **at all**, just repack and run Game.exe!)
 
@@ -11,7 +13,7 @@ Dependencies
 * Microsoft Windows (sorry - RPG Maker is windows only; if you want to run Game.exe or RPG Maker, you need Windows.)
 * gnu make (http://gnuwin32.sourceforge.net/downlinks/make.php .. or use what's in mingw/cygwin)
 * ruby ( http://www.ruby-lang.org - pik works well for windows)
-* rvpacker (https://rubygems.org/gems/rvpacker - gem install rvpacker)
+* rvpacker-ng (https://rubygems.org/gems/rvpacker-ng - gem install rvpacker-ng)
 * RPG Maker VX Ace (http://www.rpgmakerweb.com/products/programs/rpg-maker-vx-ace)
 
 License

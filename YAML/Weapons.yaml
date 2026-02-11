@@ -1,5 +1,5 @@
 ---
-- 
+-
 - !ruby/object:RPG::Weapon
   description: Small ax used for harvesting wood.
   name: Hand Ax
